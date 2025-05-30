@@ -3,7 +3,7 @@ before:
     - go mod tidy
 release:
   prerelease: auto  # 自动识别 beta、rc 作为预发布
-
+version: 2
 builds:
   - env:
       - CGO_ENABLED=0
